@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="practice.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>OTP Verification</h2>
+      <p>Generate and verify a One-Time Password.</p>
+
+      <h1 id="otp">----</h1>
+
+      <input type="number" id="userotp" placeholder="Enter OTP" />
+
+      <button onclick="checkOtp()">Verify OTP</button>
+
+      <button onclick="generateOtp()">Generate OTP</button>
+    </div>
+  </body>
+</html>
